@@ -7,8 +7,8 @@
 
 .character {
   background-color: #fff;
-  width: 80%;
-  height: 40vh;
+  width: 90%;
+
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -100,13 +100,14 @@ img {
     width: 400px;
   }
 
-  .characterContainer{
+  .characterContainer {
     width: 100%;
     padding: 2rem;
     padding-left: 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
+    justify-content: space-around;
+    align-items: flex-start;
   }
 }

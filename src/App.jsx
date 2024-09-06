@@ -107,6 +107,7 @@ const App = () => {
       default:
         break;
     }
+    console.log(newSimpsons)
     setSimpsons(newSimpsons);
   };
 
